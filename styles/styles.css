@@ -23,7 +23,8 @@ body {
     flex-direction: column;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -320,7 +321,8 @@ main {
 }
 
 #mobile-banner-payment-methods {
-    display: none;  /*Hide Mobile Payment Methods Banner */
+    display: none;
+    /*Hide Mobile Payment Methods Banner */
 }
 
 /* CPU Page */
@@ -592,8 +594,8 @@ main {
 
 .product-container {
     display: flex;
-    align-items: flex-start; 
-    flex-wrap: wrap; 
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 
@@ -608,9 +610,9 @@ main {
 
 .product-info {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     align-items: flex-start;
-    max-width: 800px; 
+    max-width: 800px;
 }
 
 .product-description {
@@ -626,7 +628,7 @@ main {
 .product-buyinfo {
     font-family: "Roboto", sans-serif;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     gap: 0.5em;
     margin-left: 30px;
 }
@@ -668,9 +670,9 @@ main {
     text-decoration: none;
     border-radius: 5px;
     font-weight: 700;
-    font-size: 2.8em; 
-    max-width: 300px; 
-    text-align: center; 
+    font-size: 2.8em;
+    max-width: 300px;
+    text-align: center;
     transition: all 0.2s ease;
 }
 
@@ -774,25 +776,148 @@ footer p {
 
 /* Media Query For Mobile Adaptation */
 
+@media screen and (max-width: 1480px) {
+
+    .product-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+
+    .product-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .description-features-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-description {
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    .product-buyinfo {
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        margin-top: 2em;
+    }
+
+    .product-features {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .product-features h4 {
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    .product-info ul {
+        padding-left: 0.5em;
+        font-size: 1em;
+        margin: 5px;
+    }
+}
+
 @media screen and (max-width: 850px) {
 
     #home-carousel {
-        display: none;  /* Hide Desktop Carousel */
+        display: none;
+        /* Hide Desktop Carousel */
     }
 
     #mobile-home-carousel {
-        display: block;  /* Unhide Mobile Carousel */
+        display: block;
+        /* Unhide Mobile Carousel */
     }
 
     #banner-payment-methods {
-        display: none;  /* Hide Desktop Payment Methods Banner */
+        display: none;
+        /* Hide Desktop Payment Methods Banner */
     }
 
     #mobile-banner-payment-methods {
-        display: block;  /* Unhide Mobile Payment Methods Banner */
+        display: block;
+        /* Unhide Mobile Payment Methods Banner */
         margin-top: 3em;
         width: auto;
         height: auto;
+    }
+}
+
+@media screen and (max-width: 731px) {
+
+    .product-image img {
+        justify-content: center;
+        width: 22em;
+        height: 22em;
+    }
+
+    .description-features-wrapper {
+        justify-content: center;
+    }
+
+    .product-description {
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    .product-features {
+        padding: 10px;
+    }
+
+    .product-features h4 {
+        font-size: 1.2em;
+    }
+
+    .product-info ul {
+        padding-left: 0.5em;
+        font-size: 1em;
+        margin: 5px;
+    }
+
+    .buy-button {
+        font-size: 2em;
+        padding: 5px 10px;
+    }
+
+    .product-price-discount {
+        font-size: 30px;
+    }
+
+    .product-price {
+        font-size: 2em;
+    }
+
+    .product-buyinfo {
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        margin-top: 2em;
+    }
+
+    .footer-nav li {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .product-image img {
+        justify-content: center;
+        width: 18em;
+        height: 18em;
     }
 }
 
@@ -802,6 +927,7 @@ footer p {
     .navbar-collapse {
         text-align: center;
     }
+
     .navbar-nav {
         justify-content: center;
     }
