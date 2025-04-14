@@ -863,6 +863,15 @@ footer p {
         height: 22em;
     }
 
+    .subtitle-div hr {
+        display: none;
+    }
+
+    .cpu-brand-card {
+        max-width: 15em;
+        height: 15em;
+    }
+
     .description-features-wrapper {
         justify-content: center;
     }
