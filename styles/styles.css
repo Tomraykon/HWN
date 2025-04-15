@@ -872,6 +872,11 @@ footer p {
         height: 15em;
     }
 
+    .gpu-brand-card {
+        max-width: 15em;
+        height: 15em;
+    }
+
     .description-features-wrapper {
         justify-content: center;
     }
