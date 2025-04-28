@@ -11,6 +11,9 @@
     <!-- Link CSS to HTML -->
     <link rel="stylesheet" href="../styles/styles.css">
 
+    <!-- Link CSS SCSS-->
+    <link rel="stylesheet" href="../styles/styles2.css">
+
     <!-- Link Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -53,8 +56,8 @@
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">Components</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="./cpus.html">CPU</a></li>
-                            <li><a class="dropdown-item" href="./gpus.html">GPU</a></li>
+                            <li><a class="dropdown-item" href="../pages/cpus.html">CPU</a></li>
+                            <li><a class="dropdown-item" href="../pages/gpus.html">GPU</a></li>
                             <li><a class="dropdown-item" href="#">RAM</a></li>
                             <li><a class="dropdown-item" href="#">Motherboard</a></li>
                             <li><a class="dropdown-item" href="#">PSU</a></li>
@@ -101,31 +104,60 @@
         </div>
     </nav>
 
-    <!-- Main Content of the Home Page -->
-
     <main>
 
-        <!-- Featured Deals Cards -->
+        </div>
+
+        <!-- Contact Us Page -->
 
         <div class="subtitle-div">
             <hr>
-            <h3 class="cards-holder-title">CPU</h3>
+            <h3 class="">Contact us</h3>
             <hr>
         </div>
 
-        <section class="cpu-section">
-
-            <a href="./intel-cpus.html" class="cpu-brand-card">
-                <img src="../assets/icons/intel-logo.svg" alt="Intel Logo">
-            </a>
-
-            <a href="./pages/products-offers/ryzen-5-7600x-offer.html" class="cpu-brand-card">
-                <img src="../assets/icons/amd-logo.svg" alt="AMD Logo">
-            </a>
-
+        <section class="contact-us">
+            <p>If you have any questions or need support, feel free to reach out to us using the form below. We'll get back to you as soon as possible.</p>
+        
+            <form action="#" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" placeholder="Write your message here" rows="4" required></textarea>
+                </div>
+        
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" id="terms" name="terms" required>
+                        I accept the terms and conditions.
+                    </label>
+                </div>
+        
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" id="offers" name="offers">
+                        I want to receive exclusive offers, updates, and news from HW Nexus directly in my email.
+                    </label>
+                </div>
+        
+                <div class="form-actions">
+                    <button type="submit" class="submit-btn">Send</button>
+                    <button type="reset" class="clear-btn">Clear</button>
+                </div>
+            </form>
         </section>
 
     </main>
+
 
     <footer>
 
