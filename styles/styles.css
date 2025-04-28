@@ -612,6 +612,12 @@ main {
     border: solid 2px var(--dk-sec-color1);
 }
 
+.product-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .product-price-wrapper {
     display: flex;
     flex-direction: column;
