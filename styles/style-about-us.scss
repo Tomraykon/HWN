@@ -1,0 +1,115 @@
+$background-main-color: #EDF2F4;
+$gradient-sec: #EF233C;
+$main-color: #D80032;
+$text-color: #333333;
+$sec-color1: #2B2D42;
+$dk-sec-color1: #1E1F2B;
+$sec-color2: #8D99AE;
+
+.subtitle-div h3 {
+    font-weight: bolder;
+}
+
+.about-us {
+    max-width: 900px;
+    margin: 2em auto;
+    background-color: $background-main-color;
+    padding: 2.5em;
+    border: 2px solid $dk-sec-color1;
+    border-radius: 2px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    font-family: "Roboto", sans-serif;
+  
+    .about-content {
+      h2 {
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 4em;
+        color: $main-color;
+        text-align: center;
+        margin-bottom: 1em;
+      }
+  
+      p {
+        font-size: 1.3em;
+        color: $text-color;
+        line-height: 1.6;
+        margin-bottom: 1.5em;
+        text-align: justify;
+      }
+  
+      h3 {
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 2.5em;
+        color: $sec-color1;
+        margin-top: 2em;
+        margin-bottom: 1em;
+        text-align: center;
+      }
+  
+      ul {
+        list-style: none;
+        padding-left: 0;
+        display: grid;
+        gap: 1em;
+        font-size: 1.3em;
+  
+        li {
+          background-color: $sec-color1;
+          color: white;
+          padding: 0.8em 1em;
+          border-radius: 2px;
+          font-weight: bold;
+          display: flex;
+          align-items: center;
+          gap: 0.5em;
+          transition: background 0.3s ease;
+  
+          &:hover {
+            background-color: $main-color;
+          }
+        }
+      }
+  
+      .closing-message {
+        font-size: 1.2em;
+        font-weight: bold;
+        color: $main-color;
+        text-align: center;
+        margin-top: 2em;
+      }
+    }
+  
+    .reviews {
+      margin-top: 3em;
+  
+      h3 {
+        font-family: "Bebas Neue", sans-serif;
+        text-align: center;
+        font-size: 3em;
+        color: $main-color;
+        margin-bottom: 1em;
+      }
+  
+      .review {
+        background-color: $sec-color1;
+        color: white;
+        padding: 1em 1.5em;
+        border-radius: 2px;
+        margin-bottom: 1.5em;
+        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+  
+        .quote {
+          font-style: italic;
+          font-size: 1.3em;
+        }
+  
+        .author {
+          text-align: right;
+          margin-top: 0.5em;
+          font-weight: bold;
+          color: $background-main-color;
+        }
+      }
+    }
+  }
+  
