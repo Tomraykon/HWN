@@ -1,4 +1,0 @@
-Agregue el SCSS en la Pagina de "Contact us" Solucione un poco el problema del overflow en resoluciones bajas, pero en resoluciones muy muy bajas aún sigue habiendo un poco de Overflow.
-Tambien tengo animaciones en los botones los inputs, y las tarjetas de los productos.
-Tengo una pregunta respecto a la entrega Final: Yo tengo un Apartado de CPUS pero solo tengo hecha la pagina de 2 cpus 1 para AMD y otro para Intel. Sin embargo en la pagina de intel deje varios cpus pero todos te guian a la pagina del I5 12400F. Ya que revisan el contenido de la pagina ¿Debo desarollar cada una de las paginas para cada procesador? ¿O dejo en la seccion de Procesadores intel el unico procesador que tengo la pagina de compra desarollada y elimino el resto?
-Y otra pregunta ¿Todas las paginas que tengo en la Nav Bar tambien debo desarollarlas por completo?
